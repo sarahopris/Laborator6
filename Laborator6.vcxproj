@@ -140,15 +140,19 @@
   <ItemGroup>
     <ClCompile Include="Filme.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MovieValidator.cpp" />
     <ClCompile Include="Repository.cpp" />
     <ClCompile Include="RepositoryExceptions.cpp" />
+    <ClCompile Include="Controller.cpp" />
     <ClCompile Include="Utils.cpp" />
     <ClCompile Include="Watchlist.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Controller.h" />
     <ClInclude Include="FileWatchlist.h" />
     <ClInclude Include="FileWatchlist.cpp" />
     <ClInclude Include="Filme.h" />
+    <ClInclude Include="MovieValidator.h" />
     <ClInclude Include="Repository.h" />
     <ClInclude Include="RepositoryExceptions.h" />
     <ClInclude Include="Utils.h" />
