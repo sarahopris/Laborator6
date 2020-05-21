@@ -146,6 +146,8 @@
     <ClCompile Include="Watchlist.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="FileWatchlist.h" />
+    <ClInclude Include="FileWatchlist.cpp" />
     <ClInclude Include="Filme.h" />
     <ClInclude Include="Repository.h" />
     <ClInclude Include="RepositoryExceptions.h" />

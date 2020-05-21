@@ -50,5 +50,11 @@
     <ClInclude Include="Watchlist.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="FileWatchlist.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileWatchlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
