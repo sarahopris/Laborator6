@@ -140,11 +140,13 @@
   <ItemGroup>
     <ClCompile Include="Filme.cpp" />
     <ClCompile Include="Repository.cpp" />
+    <ClCompile Include="RepositoryExceptions.cpp" />
     <ClCompile Include="Utils.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Filme.h" />
     <ClInclude Include="Repository.h" />
+    <ClInclude Include="RepositoryExceptions.h" />
     <ClInclude Include="Utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
