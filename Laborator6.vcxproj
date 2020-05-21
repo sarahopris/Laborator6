@@ -138,6 +138,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CSVWatchlist.cpp" />
     <ClCompile Include="Filme.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MovieValidator.cpp" />
@@ -149,6 +150,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Controller.h" />
+    <ClInclude Include="CSVWatchlist.h" />
     <ClInclude Include="FileWatchlist.h" />
     <ClInclude Include="FileWatchlist.cpp" />
     <ClInclude Include="Filme.h" />
