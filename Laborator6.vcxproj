@@ -145,6 +145,7 @@
     <ClCompile Include="Repository.cpp" />
     <ClCompile Include="RepositoryExceptions.cpp" />
     <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="UI.cpp" />
     <ClCompile Include="Utils.cpp" />
     <ClCompile Include="Watchlist.cpp" />
   </ItemGroup>
@@ -152,11 +153,12 @@
     <ClInclude Include="Controller.h" />
     <ClInclude Include="CSVWatchlist.h" />
     <ClInclude Include="FileWatchlist.h" />
-    <ClInclude Include="FileWatchlist.cpp" />
+    <ClCompile Include="FileWatchlist.cpp" />
     <ClInclude Include="Filme.h" />
     <ClInclude Include="MovieValidator.h" />
     <ClInclude Include="Repository.h" />
     <ClInclude Include="RepositoryExceptions.h" />
+    <ClInclude Include="UI.h" />
     <ClInclude Include="Utils.h" />
     <ClInclude Include="Watchlist.h" />
   </ItemGroup>

@@ -20,7 +20,7 @@ void Repository::addMovie(const Filme& m)
 		m1 = this->findByTitleandGenre(m.getTitle(), m.getGenre());
 		throw DuplicateMovieException();
 	}
-	catch (InexistentMovieException & e) {}
+	catch (InexistentMovieException& ) {}
 	this->movielist.push_back(m);
 	this->writeToFile();
 }
